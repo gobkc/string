@@ -8,7 +8,7 @@ Some traits for working with strings in Rust
 Cargo.toml:
 ````
 [dependencies]
-rust-log = { git = "https://github.com/gobkc/string" }
+string = { git = "https://github.com/gobkc/string" }
 ````
 
 - Step 2: run `cargo update`
