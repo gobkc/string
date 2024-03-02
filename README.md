@@ -17,4 +17,11 @@ string = { git = "https://github.com/gobkc/string" }
 # Example
 
 ````
+use string::StringExtend;
+
+fn main() {
+    let s = "Hello, world!";
+    let new_s = s.substr(0,5);
+    println!("{}",new_s);//output: Hello
+}
 ````
